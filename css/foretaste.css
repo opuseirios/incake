@@ -1,0 +1,69 @@
+.foretaste .foretaste-header {
+  margin: 20px; }
+.foretaste .foretaste-content {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  width: 100%; }
+  .foretaste .foretaste-content ul {
+    width: 50%;
+    float: left; }
+    .foretaste .foretaste-content ul li {
+      line-height: 26px;
+      font-size: 14px;
+      color: #000;
+      font-weight: 500; }
+      .foretaste .foretaste-content ul li.title {
+        font-size: 20px;
+        line-height: 60px; }
+.foretaste .foretaste-form {
+  border-top: 1px solid #0f3677; }
+  .foretaste .foretaste-form .form-title {
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 30px; }
+  .foretaste .foretaste-form .form-content {
+    width: 100%;
+    background: #f0f0f0;
+    padding: 50px 0;
+    margin-bottom: 80px; }
+    .foretaste .foretaste-form .form-content .info-list {
+      width: 100%;
+      margin-bottom: 50px; }
+      .foretaste .foretaste-form .form-content .info-list li {
+        width: 520px;
+        float: left;
+        height: 38px;
+        margin-bottom: 15px;
+        margin-left: 80px; }
+        .foretaste .foretaste-form .form-content .info-list li .title {
+          display: inline-block;
+          width: 70px;
+          text-align: right;
+          font-size: 14px;
+          color: #4f4f4f; }
+        .foretaste .foretaste-form .form-content .info-list li ::-webkit-input-placeholder {
+          color: #d7d7d7; }
+        .foretaste .foretaste-form .form-content .info-list li input {
+          width: 320px;
+          height: 36px;
+          border: 1px solid #c8c8c8;
+          padding-left: 10px; }
+        .foretaste .foretaste-form .form-content .info-list li select.taste-place {
+          width: 330px;
+          height: 36px; }
+        .foretaste .foretaste-form .form-content .info-list li select.taste-area {
+          width: 100px;
+          height: 34px;
+          margin-right: 15px; }
+    .foretaste .foretaste-form .form-content a.submit {
+      width: 250px;
+      height: 50px;
+      line-height: 50px;
+      color: #fff;
+      text-align: center;
+      background: #e9546b;
+      margin: 20px auto;
+      border-radius: 5px; }
+
+/*# sourceMappingURL=foretaste.css.map */

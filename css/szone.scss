@@ -1,0 +1,158 @@
+$mainColor:#e9546b;
+.szonePage{
+  background: #bb1c22;
+  .szone-banner{
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    .inner{
+      position: absolute;
+      width: 1920px;
+      height: 760px;
+      background: url("../images/szone/banner.png") no-repeat center top;
+      top: 0;
+      left: 0;
+      z-index: 9;
+      margin-left: -360px;
+    }
+  }
+  .szone-container{
+    background: url("../images/szone/body_bg.jpg") no-repeat top center;
+    width: 100%;
+    .category{
+      padding-top: 110px;
+      .category-title{
+        width: 570px;
+        height: 40px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        &.cake{
+          background: url("../images/szone/category_title_cake.png");
+        }
+        &.tea{
+          background: url("../images/szone/category_title_tea.png");
+        }
+      }
+      .category-content{
+        &.afternoon-tea{
+          margin-top: 120px;
+          .section{
+            border-bottom: none;
+          }
+        }
+        .section{
+          border-bottom: 1px dashed #dddddd;
+          .section-title{
+            margin: 60px auto;
+            width: 106px;
+            height: 48px;
+            background-repeat: no-repeat;
+            &.new{
+              background-image: url("../images/szone/section_title_new.png");
+            }
+            &.hot{
+              background-image: url('../images/szone/section_title_hot.png');
+            }
+          }
+          .section-content{
+            li{
+              float: left;
+              margin: 0 15px;
+              &:last-child{
+                margin-right: 0;
+              }
+              &.two-in-one{
+                .text{
+                  .buy-btn{
+                    margin-top:75px;
+                  }
+                }
+
+              }
+              a{
+                margin-bottom: 30px;
+                img{
+                  display: block;
+                  width: 270px;
+                  height: 270px;
+                  border-radius: 30px;
+                }
+              }
+              .text{
+                text-align: center;
+                .name{
+                  margin-bottom: 20px;
+                  .cn{
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #e9546b;
+                  }
+                  .en{
+                    font-size: 10px;
+                    color: #bfbebe;
+                  }
+                }
+                .unit-price{
+                  margin-bottom: 20px;
+                  .current{
+                    .price{
+                      color: $mainColor;
+                      font-weight: 600;
+                      i{
+                        font-style: normal;
+                        font-size: 12px;
+                      }
+                    }
+                    .pound{
+                      font-size: 12px;
+                      color: $mainColor;
+                    }
+                  }
+                  .original{
+                    font-size: 10px;
+                    text-decoration: line-through;
+                    color: #d8d8d8;
+                  }
+                }
+                .buy-btn{
+                  width: 140px;
+                  height: 40px;
+                  background: #497bfc;
+                  line-height: 40px;
+                  text-align: center;
+                  color: #fff;
+                  border-radius: 20px;
+                  margin: 0 auto;
+                  margin-bottom: 58px;
+                  &:hover{
+                    background: blue;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .szone-rule{
+    width: 100%;
+    background: #940f14;
+    dl{
+      width: 580px;
+      margin: 0 auto;
+      padding: 30px 0;
+      color: #fff;
+      dt{
+        padding-bottom: 18px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+      }
+      dd{
+        font-size: 14px;
+        line-height: 30px;
+      }
+    }
+  }
+}

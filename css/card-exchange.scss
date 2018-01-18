@@ -1,0 +1,77 @@
+.exchange{
+  width: 100%;
+  height: 540px;
+  background: url("../images/exchange/card_exchange_bg.jpg") no-repeat;
+  position: relative;
+  .exchange-form{
+    width: 610px;
+    height: 375px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -305px;
+    margin-top: 100px;
+    .form-title{
+      height: 62px;
+      line-height: 62px;
+      font-size: 24px;
+      color: #fff;
+      background: #735858;
+      text-align: center;
+      border-radius: 8px 8px 0 0;
+      font-weight: 500;
+    }
+    .form-content{
+      box-sizing: border-box;
+      height: 314px;
+      border-radius: 0 0 8px 8px;
+      background: url("../images/exchange/mask_bg.png") repeat;
+      padding-top: 50px;
+      padding-left: 65px;
+      li{
+        margin-bottom: 20px;
+        .title{
+          color: #505050;
+          font-size: 14px;
+          margin-right: 12px;
+        }
+        input{
+          display: inline-block;
+          width: 350px;
+          height: 40px;
+          border: 1px solid #d2d2d2;
+          border-radius: 5px;
+        }
+        &.message{
+          margin-right: 65px;
+          margin-left: 130px;
+          text-align: center;
+          font-size: 14px;
+          color: #e9546b;
+          height: 20px;
+          p{
+            display: none;
+          }
+        }
+        &.operate{
+          margin-left: 130px;
+          a{
+            float: left;
+            width: 170px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            color: #fff;
+            margin-right: 10px;
+            &.cancel{
+              background: #f3b4be;
+            }
+            &.confirm{
+              background: #e9546b;
+            }
+          }
+        }
+      }
+    }
+  }
+}

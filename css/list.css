@@ -1,0 +1,194 @@
+.listPage {
+  margin-top: 40px; }
+  .listPage .list-categories {
+    border-bottom: 1px solid #000; }
+    .listPage .list-categories li {
+      padding: 10px 0; }
+      .listPage .list-categories li:first-child {
+        padding-bottom: 0; }
+      .listPage .list-categories li .title {
+        float: left;
+        margin-left: 20px;
+        font-size: 14px;
+        color: #000; }
+      .listPage .list-categories li .content {
+        margin-left: 20px;
+        float: left; }
+        .listPage .list-categories li .content a {
+          float: left;
+          width: 80px;
+          height: 20px;
+          color: #000;
+          font-size: 14px;
+          margin-right: 20px;
+          line-height: 20px;
+          text-align: center; }
+          .listPage .list-categories li .content a.active, .listPage .list-categories li .content a:hover {
+            background: #e9546b;
+            color: #fff; }
+  .listPage ul.cakeList {
+    width: 1220px;
+    margin-top: 40px; }
+    .listPage ul.cakeList li.product {
+      float: left;
+      width: 293px;
+      height: 400px;
+      box-sizing: border-box;
+      position: relative;
+      margin-right: 9px;
+      margin-bottom: 10px; }
+      .listPage ul.cakeList li.product:nth-child(4n) {
+        margin-right: 0; }
+      .listPage ul.cakeList li.product .img {
+        position: relative;
+        overflow: hidden;
+        height: 291px; }
+        .listPage ul.cakeList li.product .img .productBuy {
+          position: absolute;
+          width: 291px;
+          height: 291px;
+          background: rgba(255, 255, 255, 0.7);
+          left: 0;
+          bottom: -100%; }
+          .listPage ul.cakeList li.product .img .productBuy .close {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            width: 16px;
+            height: 16px;
+            background-position: -24px -48px;
+            background: url("../images/icon_close_16_rect.png"); }
+          .listPage ul.cakeList li.product .img .productBuy .spec-switch {
+            width: 100%;
+            margin-top: 35px; }
+            .listPage ul.cakeList li.product .img .productBuy .spec-switch li {
+              margin: 0 auto;
+              width: 100px;
+              height: 30px;
+              background: #e9546b;
+              color: #fff;
+              cursor: pointer;
+              font-size: 16px;
+              line-height: 30px;
+              text-align: center; }
+          .listPage ul.cakeList li.product .img .productBuy .spec-tab .product-size {
+            margin: 20px; }
+            .listPage ul.cakeList li.product .img .productBuy .spec-tab .product-size li {
+              cursor: pointer;
+              float: left;
+              margin-right: 10px;
+              width: 50px;
+              height: 20px;
+              text-align: center;
+              line-height: 20px;
+              border: 1px solid #000;
+              color: #000; }
+              .listPage ul.cakeList li.product .img .productBuy .spec-tab .product-size li.select {
+                border-color: #e9546b;
+                color: #e9546b;
+                background: url("../images/icon_order_active_17.png") no-repeat bottom right;
+                background-size: 17px 17px; }
+          .listPage ul.cakeList li.product .img .productBuy .spec-tab .comment-list {
+            margin-left: 15px;
+            margin-top: -5px; }
+            .listPage ul.cakeList li.product .img .productBuy .spec-tab .comment-list li {
+              margin-bottom: 10px;
+              font-size: 12px; }
+              .listPage ul.cakeList li.product .img .productBuy .spec-tab .comment-list li::before {
+                content: '';
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 4px;
+                background: #000;
+                margin-right: 10px; }
+          .listPage ul.cakeList li.product .img .productBuy .spec-count {
+            margin-top: 15px;
+            margin-left: 50px; }
+            .listPage ul.cakeList li.product .img .productBuy .spec-count .minus, .listPage ul.cakeList li.product .img .productBuy .spec-count .add {
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+              background: url("../images/icon_sub_disabled.png") no-repeat; }
+            .listPage ul.cakeList li.product .img .productBuy .spec-count .count {
+              display: inline-block;
+              width: 55px;
+              height: 25px;
+              border: 1px solid #b4b4b4;
+              margin: 0 6px;
+              text-align: center;
+              vertical-align: top;
+              box-sizing: border-box; }
+            .listPage ul.cakeList li.product .img .productBuy .spec-count .sum {
+              display: inline-block;
+              width: 55px;
+              height: 25px;
+              background: #e9546b;
+              color: #fff;
+              line-height: 25px;
+              text-align: center;
+              vertical-align: top;
+              margin-right: 5px; }
+              .listPage ul.cakeList li.product .img .productBuy .spec-count .sum i {
+                font-style: normal; }
+            .listPage ul.cakeList li.product .img .productBuy .spec-count .add {
+              background: url("../images/icon_add_enabled.png") no-repeat; }
+          .listPage ul.cakeList li.product .img .productBuy .operator {
+            margin-top: 10px;
+            margin-left: 45px; }
+            .listPage ul.cakeList li.product .img .productBuy .operator a {
+              width: 90px;
+              height: 30px;
+              line-height: 30px;
+              text-align: center;
+              color: #fff;
+              background: #e9546b;
+              font-size: 14px;
+              margin-right: 20px;
+              float: left; }
+      .listPage ul.cakeList li.product .productInfo {
+        margin-left: 20px;
+        z-index: 999; }
+        .listPage ul.cakeList li.product .productInfo .desc {
+          margin-top: 15px;
+          font-size: 14px;
+          color: #b5b5b5;
+          width: 270px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+        .listPage ul.cakeList li.product .productInfo .name {
+          font-size: 14px;
+          margin-top: 15px;
+          color: #635859; }
+        .listPage ul.cakeList li.product .productInfo .price {
+          margin-top: 15px;
+          font-size: 14px;
+          color: #ee6d6b; }
+          .listPage ul.cakeList li.product .productInfo .price span {
+            font-size: 12px; }
+        .listPage ul.cakeList li.product .productInfo .cart {
+          position: absolute;
+          width: 28px;
+          height: 28px;
+          background: url("../images/icon_join_basket_rect.png") no-repeat;
+          right: 15px;
+          bottom: 10px; }
+      .listPage ul.cakeList li.product .favor {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 30px;
+        width: 30px;
+        background: url("../images/icon.png");
+        background-position: -116px -31px;
+        display: none; }
+      .listPage ul.cakeList li.product:hover {
+        border: 1px solid #e9546b; }
+        .listPage ul.cakeList li.product:hover .favor {
+          cursor: pointer;
+          display: block; }
+          .listPage ul.cakeList li.product:hover .favor:hover {
+            background-position: -146px 0px; }
+
+/*# sourceMappingURL=list.css.map */

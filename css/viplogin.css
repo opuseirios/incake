@@ -1,0 +1,52 @@
+.viplogin {
+  margin-top: 80px;
+  margin-bottom: 160px; }
+  .viplogin .login-slogan {
+    padding-left: 30px;
+    padding-top: 90px;
+    float: left; }
+  .viplogin .login-mode {
+    position: relative;
+    height: 470px;
+    float: left;
+    margin-top: 50px;
+    border-left: 1px solid #c8c8c8; }
+    .viplogin .login-mode p {
+      margin-left: 200px;
+      font-size: 36px;
+      color: #d6dce2; }
+    .viplogin .login-mode ::-webkit-input-placeholder {
+      color: #d4d4d4; }
+    .viplogin .login-mode input {
+      display: block;
+      margin-left: 100px;
+      margin-top: 15px;
+      width: 370px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      padding-left: 20px;
+      border: 1px solid #929eab;
+      border-radius: 8px;
+      background: #fafafa; }
+    .viplogin .login-mode a.login {
+      margin-top: 44px;
+      margin-left: 100px;
+      width: 390px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: #fff;
+      background: #45515f;
+      font-size: 20px;
+      border-radius: 8px; }
+    .viplogin .login-mode .rightLogo {
+      position: absolute;
+      right: -75px;
+      top: -65px; }
+      .viplogin .login-mode .rightLogo img {
+        float: left; }
+        .viplogin .login-mode .rightLogo img.icon {
+          margin-top: -5px; }
+
+/*# sourceMappingURL=viplogin.css.map */

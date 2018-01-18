@@ -1,0 +1,57 @@
+.strawberryPage{
+  background: url("../images/strawberry/body_bg.png");
+  padding-bottom: 230px;
+  .strawberry-container{
+    width: 1000px;
+    margin: 0 auto;
+    .strawberryBanner{
+      position: relative;
+      height: 486px;
+      .inner{
+        position: absolute;
+        width: 1920px;
+        height: 486px;
+        top: 0;
+        left:50%;
+        margin-left: -960px;
+        background: url("../images/strawberry/banner.png") no-repeat;
+      }
+    }
+    .strawberryContent{
+      .fl{
+        float: left;
+      }
+      .fr{
+        float: right;
+      }
+      .cake{
+        height: 500px;
+        .img{
+          width: 450px;
+        }
+        .txt{
+          position: relative;
+          width: 550px;
+          .buyNow{
+            position: absolute;
+            left: 30px;
+            bottom: 114px;
+            width: 225px;
+            height: 54px;
+            background-repeat: no-repeat;
+            background-image: url("../images/strawberry/btn_buy.png");
+            &:hover{
+              background-position: -227px 0;
+            }
+            &.buyR{
+              left: 210px;
+            }
+            &.buyM{
+              left: 230px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

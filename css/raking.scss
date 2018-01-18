@@ -1,0 +1,130 @@
+.rakingPage{
+  .rakingBanner{
+    width: 1200px;
+    margin: 0 auto;
+    height: 596px;
+    position: relative;
+    .inner{
+      position: absolute;
+      width: 1920px;
+      height: 596px;
+      top: 0;
+      left: 50%;
+      margin-left: -960px;
+      background: url("../images/raking/banner.png") no-repeat;
+    }
+  }
+  .rakingContent{
+    padding-top: 50px;
+    padding-bottom: 300px;
+    background: url("../images/raking/body-bg.png");
+    .ranktop{
+      position: relative;
+      span.rank{
+        display: block;
+        width: 144px;
+        height: 120px;
+        position: absolute;
+        background-repeat: no-repeat;
+        left: 40px;
+        top: 60px;
+        &.rank-01{
+          background-image: url('../images/raking/top1.png');
+        }
+        &.rank02{
+          background-image: url('../images/raking/top2.png');
+        }
+        &.rank03{
+          background-image: url('../images/raking/top3.png')
+        }
+      }
+      .img{
+        margin-top: 180px;
+        width: 576px;
+        height: 352px;
+        margin-left: 40px;
+      }
+      .txt{
+        margin-top: 240px;
+        width: 585px;
+        margin-left: -40px;
+        position: relative;
+        &.redlove{
+          //margin-right: 40px;
+          margin-right: -80px;
+        }
+        a.buyNow{
+          margin: 30px auto;
+          width: 224px;
+          height: 56px;
+          background: url("../images/raking/btn_buy.png") no-repeat;
+          &:hover{
+            background-position: -228px 0;
+          }
+        }
+      }
+    }
+    .rank-rest{
+      width: 1200px;
+      overflow: hidden;
+
+      ul{
+        width: 1300px;
+        li.item{
+          float: left;
+          margin: 100px 50px 0 40px;
+          position: relative;
+          .rank{
+            position: absolute;
+            left: 30px;
+            top: -30px;
+            width: 89px;
+            height: 91px;
+            &.rank-04{
+              background: url("../images/raking/top4.png") no-repeat;
+            }
+            &.rank-05{
+              background: url("../images/raking/top5.png") no-repeat;
+            }
+            &.rank-06{
+              background: url("../images/raking/top6.png") no-repeat;
+            }
+            &.rank-07{
+              background: url("../images/raking/top.png") no-repeat;
+            }
+            &.rank-08{
+              background: url("../images/raking/top8.png") no-repeat;
+            }
+            &.rank-09{
+              background: url("../images/raking/top9.png") no-repeat;
+            }
+          }
+          .img{
+            position: relative;
+            margin-top: 30px;
+            height: 272px;
+            width: 318px;
+            img{
+              position: absolute;
+              left: 0;
+              top: 0;
+            }
+          }
+          .cake{
+            margin: 15px auto;
+          }
+          .buyNow{
+            margin: 0 auto;
+            margin-top: 5px;
+            width: 224px;
+            height: 56px;
+            background: url("../images/raking/btn_buy.png") no-repeat;
+            &:hover{
+              background-position: -227px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

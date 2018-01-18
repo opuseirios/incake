@@ -1,0 +1,238 @@
+$mainColor:#e9546b;
+.listPage{
+  margin-top: 40px;
+  .list-categories{
+    border-bottom: 1px solid #000;
+    li{
+      padding: 10px 0;
+      &:first-child{
+        padding-bottom: 0;
+      }
+      .title{
+        float: left;
+        margin-left: 20px;
+        font-size: 14px;
+        color: #000;
+      }
+      .content{
+        margin-left: 20px;
+        float: left;
+        a{
+          float: left;
+          width: 80px;
+          height: 20px;
+          color: #000;
+          font-size: 14px;
+          margin-right: 20px;
+          line-height: 20px;
+          text-align: center;
+          &.active,&:hover{
+            background: $mainColor;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  ul.cakeList{
+    width: 1220px;
+    margin-top: 40px;
+    li.product{
+      float: left;
+      width: 293px;
+      height: 400px;
+      box-sizing: border-box;
+      position: relative;
+      margin-right: 9px;
+      margin-bottom: 10px;
+      &:nth-child(4n){
+        margin-right: 0;
+      }
+      .img{
+        position: relative;
+        overflow: hidden;
+        height: 291px;
+        .productBuy{
+          position: absolute;
+          width: 291px;
+          height: 291px;
+          background: rgba(255,255,255,.7);
+          left: 0;
+          bottom: -100%;
+          .close{
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            width:16px;
+            height:16px;
+            background-position:-24px -48px;
+            background: url("../images/icon_close_16_rect.png");
+          }
+          .spec-switch{
+            width: 100%;
+            margin-top: 35px;
+            li{
+              margin: 0 auto;
+              width: 100px;
+              height: 30px;
+              background: $mainColor;
+              color: #fff;
+              cursor: pointer;
+              font-size: 16px;
+              line-height: 30px;
+              text-align: center;
+            }
+          }
+          .spec-tab{
+            .product-size{
+              margin: 20px;
+              li{
+                cursor: pointer;
+                float: left;
+                margin-right: 10px;
+                width: 50px;
+                height: 20px;
+                text-align: center;
+                line-height: 20px;
+                border: 1px solid #000;
+                color: #000;
+                &.select{
+                  border-color: $mainColor;
+                  color: $mainColor;
+                  background: url("../images/icon_order_active_17.png") no-repeat bottom right;
+                  background-size: 17px 17px;
+                }
+              }
+            }
+            .comment-list{
+              margin-left: 15px;
+              margin-top: -5px;
+              li{
+                margin-bottom: 10px;
+                font-size: 12px;
+                &::before{
+                  content: '';
+                  display: inline-block;
+                  width: 8px;
+                  height: 8px;
+                  border-radius: 4px;
+                  background: #000;
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+          .spec-count{
+            margin-top: 15px;
+            margin-left: 50px;
+            .minus,.add{
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+              background: url("../images/icon_sub_disabled.png") no-repeat;
+            }
+            .count{
+              display: inline-block;
+              width: 55px;
+              height: 25px;
+              border: 1px solid #b4b4b4;
+              margin:0 6px;
+              text-align: center;
+              vertical-align: top;
+              box-sizing: border-box;
+            }
+            .sum{
+              display: inline-block;
+              width: 55px;
+              height: 25px;
+              background: $mainColor;
+              color: #fff;
+              line-height: 25px;
+              text-align: center;
+              vertical-align: top;
+              i{
+                font-style: normal;
+              }
+              margin-right: 5px;
+            }
+            .add{
+              background: url("../images/icon_add_enabled.png") no-repeat;
+            }
+          }
+          .operator{
+            margin-top: 10px;
+            margin-left: 45px;
+            a{
+              width: 90px;
+              height: 30px;
+              line-height: 30px;
+              text-align: center;
+              color: #fff;
+              background: $mainColor;
+              font-size: 14px;
+              margin-right: 20px;
+              float: left;
+            }
+          }
+        }
+      }
+      .productInfo{
+        margin-left: 20px;
+        z-index: 999;
+        .desc{
+          margin-top: 15px;
+          font-size: 14px;
+          color: #b5b5b5;
+          width: 270px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        .name{
+          font-size: 14px;
+          margin-top: 15px;
+          color: #635859;
+        }
+        .price{
+          margin-top: 15px;
+          font-size: 14px;
+          color: #ee6d6b;
+          span{
+            font-size: 12px;
+          }
+        }
+        .cart{
+          position: absolute;
+          width:28px;
+          height:28px;
+          background: url("../images/icon_join_basket_rect.png") no-repeat;
+          right: 15px;
+          bottom: 10px;
+        }
+
+      }
+
+      .favor{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 30px;
+        width: 30px;
+        background: url("../images/icon.png");
+        background-position:-116px -31px;
+        display: none;
+      }
+      &:hover{
+        border: 1px solid $mainColor;
+        .favor{
+          cursor: pointer;
+          display: block;
+          &:hover{
+            background-position:-146px 0px;
+          }
+        }
+      }
+
+    }
+  }
+}
